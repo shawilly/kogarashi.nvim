@@ -25,7 +25,7 @@
 
 <hr/>
 
-<h4 align="center">A winter-leaning Neovim colorscheme with restrained contrast, warm parchment text, and broad plugin coverage.</h4>
+<h4 align="center">A Neovim colorscheme shaped around kogarashi, the cold wind that signals the arrival of winter.</h4>
 
 <hr/>
 
@@ -39,7 +39,9 @@ vim.cmd.colorscheme("kogarashi")
 
 ## Theme
 
-Kogarashi is a Neovim colorscheme and Vim theme aimed at daily coding, terminal work, and plugin-heavy setups. It ships with:
+`Kogarashi` refers to the cold, tree-shaking wind that marks the start of winter in Japanese seasonal language. This colorscheme tries to hold that feeling: dark air, muted distance, pale light, and a small amount of warmth carried through gold, cedar, and frost-blue accents.
+
+Built for daily coding, terminal work, and plugin-heavy setups, it ships with:
 
 - tree-sitter and semantic token highlights
 - terminal and devicon integration
@@ -47,6 +49,15 @@ Kogarashi is a Neovim colorscheme and Vim theme aimed at daily coding, terminal 
 - override hooks for palette, scheme, and final highlight groups
 
 If you want the Vim-first sibling theme, see [shawilly/ponokai](https://github.com/shawilly/ponokai).
+
+## What Kogarashi Means
+
+Kogarashi is not meant to be a generic “dark theme.” The palette is intentionally restrained:
+
+- deep charcoal backgrounds for the feeling of early winter dusk
+- parchment foregrounds instead of stark white for softer long-session contrast
+- weathered gold, cedar red, moss green, and cold blue accents to suggest late autumn turning into winter
+- enough saturation to keep code readable without losing the quiet atmosphere the name implies
 
 ## Installation
 

@@ -10,6 +10,10 @@ Table of Contents                              *kogarashi-table-of-contents*
 
 Project repository <https://github.com/shawilly/kogarashi.nvim>
 
+Kogarashi is named after the cold wind that signals the arrival of winter.
+The palette aims for that atmosphere: dark air, pale light, muted distance,
+and a measured warmth in its accent colors.
+
 
 PLUGIN SUPPORT ~
 
