@@ -8,7 +8,7 @@ Table of Contents                              *kogarashi-table-of-contents*
   - Usage                                                  |kogarashi-usage|
 1. Links                                                   |kogarashi-links|
 
-Find out more here ponokai.pro <https://ponokai.pro/>
+Project repository <https://github.com/shawilly/kogarashi.nvim>
 
 
 PLUGIN SUPPORT ~
@@ -56,14 +56,14 @@ INSTALLATION                                        *kogarashi-installation*
 vim-plug <https://github.com/junegunn/vim-plug>
 
 >vim
-    Plug 'shawilly/ponokai.nvim'
+    Plug 'shawilly/kogarashi.nvim'
 <
 
 packer <https://github.com/wbthomason/packer.nvim>
 
 >lua
     use {
-      "shawilly/ponokai.nvim",
+      "shawilly/kogarashi.nvim",
       config = function()
         require("kogarashi").setup()
       end
