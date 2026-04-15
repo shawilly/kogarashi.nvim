@@ -33,7 +33,7 @@
 vim.cmd.colorscheme("kogarashi")
 ```
 
-![Kogarashi screenshot](https://user-images.githubusercontent.com/80513079/218453999-87c957f1-658d-49a6-bf67-291d3e46fa9a.png)
+![Screenshot](screenshot.png)
 
 ---
 
@@ -106,18 +106,6 @@ use {
 ```vim
 Plug 'shawilly/kogarashi.nvim'
 ```
-
-## Screenshots
-
-If you want a repeatable setup for local screenshots, use [`examples/screenshots.lua`](examples/screenshots.lua). Launch it with:
-
-```sh
-nvim --clean -S examples/screenshots.lua
-```
-
-It opens a scratch buffer that renders active highlight groups, clears common floating backgrounds, and enables `nvim-web-devicons` highlights for cleaner captures.
-
-![Highlight groups](screenshot.png)
 
 ## Plugin Support
 
