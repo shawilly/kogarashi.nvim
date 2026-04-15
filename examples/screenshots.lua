@@ -39,10 +39,12 @@ vim.o.cmdheight = 0
 vim.o.fillchars = "eob: "
 vim.cmd.colorscheme("kogarashi")
 
-local function collect_groups()
+---@param c Wind
+local function collect_groups(c)
   local seen = {}
   local groups = {}
 
+  --- FIX: add Wind
   for _, group in ipairs(vim.fn.getcompletion("", "highlight")) do
     if group ~= "" and not seen[group] then
       seen[group] = true
@@ -57,9 +59,11 @@ local function collect_groups()
   return groups
 end
 
+--- TODO: add wind
 local function render_highlights()
   local buf = vim.api.nvim_get_current_buf()
-  local groups = collect_groups()
+  --- INFO: wind required
+  local groups = collect_groups(c)
   local name_width = 0
 
   for _, group in ipairs(groups) do
